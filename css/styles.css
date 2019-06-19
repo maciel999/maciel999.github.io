@@ -1,0 +1,85 @@
+*{font-family: Verdana, Tahoma, sans-serif; margin: 0; padding: 0;}
+
+html, body{
+    min-height: 100%;
+}
+
+/* Extra small devices (portrait phones, less than 576px)/
+ No media query since this is the default in Bootstrap*/
+ 
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+#home{
+    background-image: url(../imagens/banner.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #333333;
+    box-shadow: 0px 3px 15px #333333;
+}
+
+#menu ul li a{color: #e3e3e3;}
+#menu ul li a:hover{color: #333333;}
+
+#sobre{padding: 100px 0; background: #cccccc; color: #787878;}
+
+#portifolio{padding: 100px 0; color: #787878; background: #e3e3e3;}
+#portifolio img{width: 400px; height: 300px;}
+
+#contato{background: #cccccc;}
+#contato h2, #contato p, #contato label{color: #333333;}
+
+footer{padding: 50px 0; background: #787878; color: #e3e3e3;}
+
+/*CLASSES*/
+
+/*BOTÕES*/
+
+.btn-cinza{
+    color: #ffffff;
+    background-color: #787878;
+    border-color: #787878;
+}
+
+.btn-cinza:hover{
+    background-color: #aaaaaa;
+    color: #ffffff;
+}   
+
+
+/*BACKGROUNDS*/
+
+.bg-cinza{background: #787878;}
+
+
+/*APLICAR ZOOM AS IMAGENS*/
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

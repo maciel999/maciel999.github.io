@@ -1,0 +1,16 @@
+
+/*
+
+*/
+
+.bg-menu{background-color: #f8f9fa!important;}
+.navbar-brand {font-size: 2em;}
+li.nav-item.active>a.nav-link {color: #f60!important;}
+#home{background: url("../images/home.jpg") no-repeat center center; background-size: cover; height: calc(100vh - 74px);}
+#portifolio{background-color: #999;}
+.btn-warning{color: #fff;
+    background-color: #f60;
+    border-color: #f60;}
+.btn-warning:hover{background-color: rgb(223, 91, 4);}   
+
+#contatos .fab{font-size: 1.5em;}

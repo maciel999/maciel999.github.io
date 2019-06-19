@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Página Pessoal - Sigle Page usando Bootstrap</title>
+  </head>
+  <body>
+    <!--INÍCIO DA BARRA DE MENU-->
+    <div class="bg-menu">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"><i class="fab fa-jedi-order"></i> WEJEDI</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portifólio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre Mim</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contatos</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+    </div>
+    <!--FIM DA BARRA DE MENU-->
+    <!--INÍCIO DA HOME-->  
+    <section id="home">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-sm-6 align-self-center">
+            <h1 class="display-4"><small class="d-block">EU SOU</small>DESENVOLVEDOR</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, ipsam.</p>
+            <a href="#sobre" class="btn btn-warning btn-lg">MAIS SOBRE MIM</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FIM DA HOME-->  
+    <!--INIÍCIO DO PORTIFÓLIO-->
+    <section id="portifolio" class="py-4 text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 py-4 text-center">
+            <h2 class="display-4">Portifólio</h2>
+            <p class="lead">Conheça alguns dos meus trabalhos</p>
+          </div>  
+        </div>
+        <div class="row">
+          <div class="col-md-4 p-4">
+            <img src="images/Hydro-free-portfolio-website-template.jpg" class="img-fluid img-thumbnail">
+          </div>
+          <div class="col-md-4 p-4">
+            <img src="images/4-.jpg" class="img-fluid img-thumbnail">
+          </div>
+          <div class="col-md-4 p-4">
+            <img src="images/company-profile-keynote-template-.jpg" class="img-fluid img-thumbnail">
+          </div>
+        </div>
+      </div>
+    </section>  
+    <!--FIM DO PORTIFÓLIO-->
+    <!--INICIO DO SOBRE-->
+    <section id="sobre" class="py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 py-5">
+              <h2>UM POUCO SOBRE MIM</h2>
+              <p class="lead text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut accusantium molestias ab quod et, adipisci dignissimos repellat earum inventore aliquam iusto laudantium tempore dicta sit, ipsum consequatur ea, vitae molestiae?</p>
+            </div>
+            <div class="col-sm-4 py-5">
+              <img src="images/adulto-bigode-borrao-167669.jpg" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--FIM DO SOBRE-->  
+    <!--INÍCIO CONTATOS-->
+    <section id="contatos" class="py-4" style="background-color:#e3e3e3;">
+      <div class="container">
+        <div class="row">
+          <!--CONTATOS-->
+          <div class="col-sm-6 py-5">
+              <h2>CONTATOS</h2>
+              <p class="lead">Tem alguma dúvida, pergunta ou sugestão? fale comigo!</p>
+              <form>
+                <div class="form-group">
+                  <label for="nome">Nome:</label>
+                  <input type="text" class="form-control" id="nome" aria-describedby="Informe seu nome" placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                  <label for="email">E-mail:</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="Informe seu e-mail" placeholder="Seu email">
+                  <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                </div>
+                <div class="form-group">
+                  <label for="mensagem">Mensagem:</label>
+                  <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning">Enviar</button>
+              </form>
+          </div>
+          <!--FIM CONTATOS-->
+          <!--REDES SOCIAIS-->
+          <div class="col-sm-6 py-5">
+              <h2>REDES SOCIAIS</h2>
+              <p class="lead">Se preferir me encontre pelas redes sociais!</p>
+              <div class="redes py-4">
+                <a href="#" class="btn btn-lg btn-warning"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="btn btn-lg btn-warning"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="btn btn-lg btn-warning"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-lg btn-warning"><i class="fab fa-whatsapp"></i></a>
+              </div>
+          </div>
+          <!--FIM REDES SOCIAIS-->
+        </div>
+      </div>
+    </section>
+    <!--FIM CONTATOS-->
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="lib/bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="lib/bootstrap/js/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
