@@ -19,7 +19,10 @@ html, body{
  }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {  }
+@media (min-width: 768px) { 
+    #sobre h2{font-size: 2em;}
+    #sobre p{font-size: 1.5em;}
+ }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {  }
@@ -45,6 +48,7 @@ html, body{
 #sobre{padding: 100px 0; background: #cccccc; color: #787878;}
 
 #portifolio{padding: 100px 0; color: #787878; background: #e3e3e3;}
+#portifolio a{text-decoration: none;}
 #portifolio img{width: 400px; height: 300px;}
 
 #contato{background: #cccccc;}
